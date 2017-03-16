@@ -1,0 +1,35 @@
+
+body{
+	background-color: lightblue;
+}
+h1{
+	color:white;
+	font-family: verdana;
+	font-size: 300%;
+	text-align: center;
+
+}
+p{
+	color:yellow;
+	font-family: verdana;
+	 text-align: center;
+	 font-size: 150%;
+}
+table {
+	
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #F8F8FF;
+  
+
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr.sec{
+	background-color:white;
+}
