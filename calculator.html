@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<meta charset="utf-8">
+
+<p>我是計算機</p>
+
+<input type="text" id="a">
+<input type="text" id="b">
+
+<script>
+function plus() {
+   
+    var a  = parseFloat(document.getElementById("a").value);
+    var b = parseFloat(document.getElementById("b").value);
+
+ 
+    document.getElementById("result").value = a+b;
+	
+}
+function minus() {
+    var a  = parseFloat(document.getElementById("a").value);
+    var b = parseFloat(document.getElementById("b").value);
+
+ 
+    document.getElementById("result").value = a-b;
+	
+}
+function multiple() {
+     var a  = parseFloat(document.getElementById("a").value);
+    var b = parseFloat(document.getElementById("b").value);
+
+ 
+    document.getElementById("result").value = a*b;
+	
+}
+function divide() {
+    var a  = parseFloat(document.getElementById("a").value);
+    var b = parseFloat(document.getElementById("b").value);
+
+    document.getElementById("result").value = a/b;
+	
+}
+function doreset(){
+	document.getElementById("a").value = "";
+	document.getElementById("b").value = "";
+
+}
+
+
+
+</script>
+
+<output id="result"></output>
+<br>
+<button onclick="plus()">+</button>
+<button onclick="minus()">-</button>
+<button onclick="multiple()">*</button>
+<button onclick="divide()">/</button>
+<button onclick="doreset()">C</button>
+
+</body>
+</html>
+
